@@ -5,9 +5,9 @@
     
 }
 .global{
-    background: rgb(98,142,117);
+
     background: linear-gradient(90deg, rgba(98,142,117,1) 5%, rgba(26,72,85,1) 88%);
-    height: 100vw;
+    height: 100vh;
 }
 
 .container{
@@ -84,4 +84,54 @@ p{
     border: 2px solid #66c28b;
     transform: skew(-20deg, 0deg);
     cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {
+    .descricaoFilme{
+        top: 3rem;
+    }
+
+    .titleFilme{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .global{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .titleFilme{
+        width: 50vw;
+        font-size: 32px;
+    }
+
+    .menu{
+        gap: 25%;
+    }
+
+    .logo{
+        left: 5%;
+        height: 64px;
+    }
+
+    .iconRede{
+        gap: 35%;
+    }
+
+    .container{
+        gap: 0;
+    }
+
+    .descricaoFilme{
+        top: 15rem;
+        margin-left: 0;
+        left: 20px;
+    }
+
+    p{
+        width: 24rem;
+    }
+
 }
