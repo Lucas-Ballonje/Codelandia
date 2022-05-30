@@ -1,0 +1,87 @@
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    
+}
+.global{
+    background: rgb(98,142,117);
+    background: linear-gradient(90deg, rgba(98,142,117,1) 5%, rgba(26,72,85,1) 88%);
+    height: 100vw;
+}
+
+.container{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    gap: 65%;
+}
+
+.logo{
+    position: relative;
+    left: 10%;
+}
+
+.iconRede{
+    width: 10%;
+    display: flex;
+    height: 24px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.container{
+    color: #F9F9F9;
+    gap: 10%;
+}
+
+.fantasmas{
+    height: 35vw;
+}
+
+.descricaoFilme{
+    width: 35%;
+    height: 10%;
+    margin-left: 70px;
+    position: relative;
+    left: 50px;
+    top: 14rem;
+}
+.titleFilme{
+    font-size: 60px;
+    width: 55%;
+}
+
+p{
+    width: 70%;
+}
+
+.botoes{
+    margin-top: 20px;
+    display: flex;
+    gap: 10%;
+}
+
+.playButton{
+    padding: 5px;
+    transform: skew(-20deg, 0deg);
+    background-color: #66c28b;
+    border: none;
+    color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px #437256;
+    cursor: pointer;
+}
+
+.trailer{
+    background: transparent;
+    color: #f9f9f9;
+    padding: 5px;
+    border: 2px solid #66c28b;
+    transform: skew(-20deg, 0deg);
+    cursor: pointer;
+}
