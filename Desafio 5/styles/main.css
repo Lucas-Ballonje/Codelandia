@@ -108,12 +108,14 @@ p{
     }
 
     .menu{
-        gap: 25%;
+        gap: 50%;
     }
 
     .logo{
         left: 5%;
-        height: 64px;
+        height: 60px;
+        left: 5%;
+        top: 25px;
     }
 
     .iconRede{
@@ -122,6 +124,14 @@ p{
 
     .container{
         gap: 0;
+    }
+
+    .fantasmas{
+        height: 50vw;
+        position: relative;
+        top: 30px;
+        right: 25vw;
+
     }
 
     .descricaoFilme{
@@ -134,5 +144,12 @@ p{
         width: 24rem;
     }
 
+<<<<<<< HEAD
     
+=======
+    .trailer{
+        display: none;
+    }
+
+>>>>>>> 421479bcc72279ed09e9557353d13a67a80eb480
 }
