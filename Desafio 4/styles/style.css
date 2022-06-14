@@ -1,4 +1,71 @@
 .containerLogin{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50vw;
+    left: 40px;
+    width: 85%;
+    font-family: "Poppins", sans-serif;
+}
+
+.titleContainer{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.welcome{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.autenticacao{
+    display: inline-flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.emailInput{
+    padding: 12px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.senhaInput{
+    padding: 12px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.checkLogin{
+    border: 2px solid #000;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+}
+
+.esqueceuSenha{
+    font-size: 14px;
+}
+
+.entrar{
+    padding: 12px;
+    background: #04C35C;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.linkSenha{
+    font-size: 14px;
+    margin-left: 5px;
 }

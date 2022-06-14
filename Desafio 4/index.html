@@ -4,46 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+
     <title>Desafio 4</title>
 </head>
 <body>
     <div class="containerLogin">
-        <h2>Faça login na sua conta</h2>
+        <div class="modalLogin">
 
-        <label class="autenticacao">
-            <h4>E-mail</h4>
-            <input type="email" placeholder="Login"/>
+            <div class="titleContainer">
+                <p class="welcome">Bem Vindo de volta</p>
         
-            <h4>Senha</h4>
-            <input type="password" placeholder="Senhas"/>
+                <h2>Faça login na sua conta</h2>
+            </div>
+    
+            <label class="autenticacao">
+                <h4 class="inputTitle">E-mail</h4>
+                <input type="email" placeholder="Email" class="emailInput"/>
+            
+                <h4>Senha</h4>
+                <input type="password" placeholder="Senhas" class="senhaInput"/>
+                
+                <div class="esqueceuSenha">
+                    <input type="checkbox" class="checkLogin">
+                    <span>Lembre de mim</span>
+        
+                    
+                    <a href="#" class="linkSenha">Esqueceu sua senha?</a>
+                    
+                </div>
 
-            <button type="submit">Entrar</button>
+                <button type="submit" class="entrar">Entrar</button>
+
+            </label>
+    
+            
+            
 
             <button>
                 <a href="#">
+                    <img src="./assets/google.png">
                     Ou faça login com o Google
                 </a>
             </button>
-
-        </label>
-
-        <div class="esqueceuSenha">
-            <input type="checkbox"> 
-            <span>Lembre de mim</span>
-
-            <span>
-                <a href="#">Esqueceu sua senha?</a>
-            </span>            
-        </div>
         
+    
+            <div class="rodape">
+                <p>
+                    <a href="#">Não tem uma conta? Cadastre-se</a>
+                </p>
+            </div>
+
+        </div>
+       
     </div>
 
-    <div class="rodape">
-        <p>
-            <a href="#">Não tem uma conta? Cadastre-se</a>
-        </p>
-    </div>
     
 </body>
 </html>
