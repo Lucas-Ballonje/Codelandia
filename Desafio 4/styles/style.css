@@ -69,3 +69,17 @@
     font-size: 14px;
     margin-left: 5px;
 }
+
+.googleButton{
+    background: #1A202C;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.googleButton a{
+    text-decoration: none;
+    color: #fff;
+}
