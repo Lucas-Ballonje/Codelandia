@@ -54,7 +54,7 @@ body{
 
 
 .esqueceuSenha{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .entrar{
@@ -70,7 +70,8 @@ body{
 
 .linkSenha{
     font-size: 14px;
-    margin-left: 5px;
+    margin-left: 16px;
+    text-decoration: none;
 }
 
 .googleButton{
@@ -80,20 +81,28 @@ body{
     border-radius: 6px;
     font-weight: 800;
     margin-top: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .googleButton a{
     text-decoration: none;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.googleButton a img{
+    margin-right: 5px;
 }
 
 
 .rodape{
     position: relative;
     top: 20vh;
+}
+
+.rodape p a{
+    text-decoration: none;
 }
 
 @media screen and (min-width: 1366px) {
@@ -109,6 +118,10 @@ body{
         right: 50vw;
         top: 2vh;
         background-color: #ccc;
+    }
+
+    .linkSenha{
+        margin-left: 5.9rem;
     }
 
     .rodape{
@@ -128,12 +141,16 @@ body{
         margin-bottom: 24px;
     }
 
+    .linkSenha{
+        margin-left: 7rem;
+    }
+
     .modalLogin{
         align-items: flex-start;
     }
 
     .rodape{
-        top: 9vh;
-        left: 2vw;
+        top: 8vh;
+        left: 3rem;
     }
 }
