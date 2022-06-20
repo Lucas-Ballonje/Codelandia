@@ -189,4 +189,17 @@ body{
         top: 8vh;
         left: 3rem;
     }
+
+    .modal{
+        right: 38.4rem;
+        padding: 30px;
+    }
+
+    .modal p{
+        font-size: 16px;
+    }
+
+    .modal input{
+        padding: 10px;
+    }
 }
