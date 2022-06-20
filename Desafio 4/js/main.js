@@ -1,9 +1,14 @@
-const verificaEmail = document.querySelector(".emailInput");
+const modal = document.querySelector(".modal");
+const esqueceuSenha = document.querySelector(".linkSenha")
 
-const verificaSenha = document.querySelector(".senhaInput");
+esqueceuSenha.addEventListener("click", function(){
+    modal.style.display = "block"
+})
 
-const entrar = document.querySelector(".entrar");
+document.addEventListener("keydown", function(event){
+    const isEscKey = event.key === "Escape";
 
-function Redirecionar(){
-    alert("redirecionando")
-}
+    if(isEscKey){
+        modal.style.display = "none"
+    }
+})

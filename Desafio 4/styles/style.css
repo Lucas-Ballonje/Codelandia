@@ -110,6 +110,23 @@ body{
     text-decoration: none;
 }
 
+.modal{
+    position: absolute;
+    top: 10rem;
+    right: 38rem;
+    background: #fff;
+    padding: 40px;
+    display: none;
+}
+
+.modal p{
+    margin-bottom: 12px;
+}
+
+.modal input{
+    padding: 10px;
+}
+
 @media screen and (min-width: 1366px) {
     .containerLogin{
         width: 35%;
@@ -132,6 +149,20 @@ body{
     .rodape{
         top: 10vh;
     }
+
+    .modal{
+        right: 28.4rem;
+        padding: 22px;
+    }
+
+    .modal p{
+        font-size: 14px;
+    }
+
+    .modal input{
+        padding: 6px;
+    }
+
 }
 
 @media screen and (min-width: 1900px){
