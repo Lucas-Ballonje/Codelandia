@@ -1,0 +1,35 @@
+.banner {
+  background-color: #D7D4FF;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px 16px 16px;
+  gap: 15%;
+  justify-content: center;
+  font-family: "Lato", "Merriweather";
+}
+.banner .descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.banner .descricao h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  color: #2B2B2B;
+}
+.banner .descricao p {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 95%;
+  color: #555555;
+}
+.banner .descricao .botaoRoxo {
+  background: #6C63FF;
+  padding: 8px 26px;
+  font-weight: 700;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+}/*# sourceMappingURL=main.css.map */
