@@ -252,3 +252,61 @@
     }
 
 }
+
+@media screen and (min-width: 1366px) {
+    .banner{
+        flex-direction: row;
+        padding: 16px 64px 16px 64px;
+        gap: 15%;
+        align-items: center;
+        justify-content: space-between;
+
+        .descricao{
+            h1{
+                width: 50%;
+            }
+
+            p{
+                width: 60%;
+                margin-top: 12px;
+                line-height: 1.9;
+            }
+
+            .botaoRoxo{
+                padding: 12px 42px;
+            }
+        }
+
+        .presente{
+            height: 52%;
+        }
+
+    }
+
+    .cardColor{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 42px 64px 42px 64px;
+        align-items: center;
+        justify-content: space-between;
+
+        .card1{
+            margin-top: 32px;
+        }
+    }
+
+    .formularioContato{
+        form{
+            align-items: center;
+            
+            input{
+                width: 40%;
+            }
+
+            .messageInput{
+                width: 40%;
+            }
+        }
+    }
+
+}

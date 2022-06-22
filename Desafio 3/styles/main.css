@@ -208,4 +208,49 @@
   background: #6C63FF;
   color: #fff;
   font-weight: 800;
+}
+
+@media screen and (min-width: 1366px) {
+  .banner {
+    flex-direction: row;
+    padding: 16px 64px 16px 64px;
+    gap: 15%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banner .descricao h1 {
+    width: 50%;
+  }
+  .banner .descricao p {
+    width: 60%;
+    margin-top: 12px;
+    line-height: 1.9;
+  }
+  .banner .descricao .botaoRoxo {
+    padding: 12px 42px;
+  }
+  .banner .presente {
+    height: 52%;
+  }
+
+  .cardColor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 42px 64px 42px 64px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cardColor .card1 {
+    margin-top: 32px;
+  }
+
+  .formularioContato form {
+    align-items: center;
+  }
+  .formularioContato form input {
+    width: 40%;
+  }
+  .formularioContato form .messageInput {
+    width: 40%;
+  }
 }/*# sourceMappingURL=main.css.map */
