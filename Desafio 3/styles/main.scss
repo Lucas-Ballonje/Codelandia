@@ -209,3 +209,46 @@
         }
     }
 }
+
+.formularioContato{
+    padding: 32px;
+    background-color: #D7D4FF;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        h2{
+            font-size: 32px;
+            margin-bottom: 28px;
+        }
+
+        input{
+            padding: 12px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            margin: 12px 0 12px 0;
+        }
+
+        .messageInput{
+            height: 120px;
+            padding: 12px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            margin: 12px 0 12px 0;
+        }
+
+        .enviarButton{
+            background: #6C63FF;
+            color: #fff;
+            font-weight: 800;
+        }
+    }
+
+}
