@@ -29,12 +29,183 @@
 
         .botaoRoxo{
             background: #6C63FF;
-            padding: 8px 26px;
+            padding: 12px 32px;
             font-weight: 700;
             border: none;
             color: #fff;
             border-radius: 8px;
+            -webkit-box-shadow: 6px 3px 7px 4px rgba(0,0,0,0.55); 
+            box-shadow: 6px 3px 7px 4px rgba(0,0,0,0.55);
+            cursor: pointer;
         }
 
+    }
+
+    .presente{
+        height: 35%;
+        width: auto;
+    }
+}
+
+.cardColor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9F9F9;
+    padding: 16px;
+
+    .card1{
+        background-color: #fff;
+        width: 79%;
+        -webkit-box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48); 
+        box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48);
+
+        .color{
+            width: 100%;
+            height: 222px;
+            background-color: #FF6363;
+        }
+
+        h3{
+            padding: 12px;
+            font-size: 24px;
+        }
+
+        p{
+            padding: 12px;
+            color: #555555;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+    }
+
+    .card2{
+        background-color: #fff;
+        width: 79%;
+        -webkit-box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48); 
+        box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48);
+        margin-top: 32px;
+        
+        .color{
+            width: 100%;
+            height: 222px;
+            background-color: #63ECFF;
+        }
+
+        h3{
+            padding: 12px;
+            font-size: 24px;
+        }
+
+        p{
+            padding: 12px;
+            color: #555555;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+    }
+    
+    .card3{
+        background-color: #fff;
+        width: 79%;
+        -webkit-box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48); 
+        box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48);
+        margin-top: 32px;
+        
+        .color{
+            width: 100%;
+            height: 222px;
+            background-color: #F363FF;
+        }
+
+        h3{
+            padding: 12px;
+            font-size: 24px;
+        }
+
+        p{
+            padding: 12px;
+            color: #555555;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+    }
+
+    .card4{
+        background-color: #fff;
+        width: 79%;
+        -webkit-box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48); 
+        box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48);
+        margin-top: 32px;
+        
+        .color{
+            width: 100%;
+            height: 222px;
+            background-color: #63FF73;
+        }
+
+        h3{
+            padding: 12px;
+            font-size: 24px;
+        }
+
+        p{
+            padding: 12px;
+            color: #555555;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+    }
+
+    .card5{
+        background-color: #fff;
+        width: 79%;
+        -webkit-box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48); 
+        box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48);
+        margin-top: 32px;
+        
+        .color{
+            width: 100%;
+            height: 222px;
+            background-color: #FFDD63;
+        }
+
+        h3{
+            padding: 12px;
+            font-size: 24px;
+        }
+
+        p{
+            padding: 12px;
+            color: #555555;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+    }
+
+    .card6{
+        background-color: #fff;
+        width: 79%;
+        -webkit-box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48); 
+        box-shadow: 13px 6px 23px -2px rgba(0,0,0,0.48);
+        margin-top: 32px;
+        
+        .color{
+            width: 100%;
+            height: 222px;
+            background-color: #6663FF;
+        }
+
+        h3{
+            padding: 12px;
+            font-size: 24px;
+        }
+
+        p{
+            padding: 12px;
+            color: #555555;
+            font-weight: 400;
+            line-height: 1.4;
+        }
     }
 }

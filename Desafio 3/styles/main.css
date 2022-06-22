@@ -27,9 +27,148 @@
 }
 .banner .descricao .botaoRoxo {
   background: #6C63FF;
-  padding: 8px 26px;
+  padding: 12px 32px;
   font-weight: 700;
   border: none;
   color: #fff;
   border-radius: 8px;
+  box-shadow: 6px 3px 7px 4px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+.banner .presente {
+  height: 35%;
+  width: auto;
+}
+
+.cardColor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F9F9F9;
+  padding: 16px;
+}
+.cardColor .card1 {
+  background-color: #fff;
+  width: 79%;
+  box-shadow: 13px 6px 23px -2px rgba(0, 0, 0, 0.48);
+}
+.cardColor .card1 .color {
+  width: 100%;
+  height: 222px;
+  background-color: #FF6363;
+}
+.cardColor .card1 h3 {
+  padding: 12px;
+  font-size: 24px;
+}
+.cardColor .card1 p {
+  padding: 12px;
+  color: #555555;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.cardColor .card2 {
+  background-color: #fff;
+  width: 79%;
+  box-shadow: 13px 6px 23px -2px rgba(0, 0, 0, 0.48);
+  margin-top: 32px;
+}
+.cardColor .card2 .color {
+  width: 100%;
+  height: 222px;
+  background-color: #63ECFF;
+}
+.cardColor .card2 h3 {
+  padding: 12px;
+  font-size: 24px;
+}
+.cardColor .card2 p {
+  padding: 12px;
+  color: #555555;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.cardColor .card3 {
+  background-color: #fff;
+  width: 79%;
+  box-shadow: 13px 6px 23px -2px rgba(0, 0, 0, 0.48);
+  margin-top: 32px;
+}
+.cardColor .card3 .color {
+  width: 100%;
+  height: 222px;
+  background-color: #F363FF;
+}
+.cardColor .card3 h3 {
+  padding: 12px;
+  font-size: 24px;
+}
+.cardColor .card3 p {
+  padding: 12px;
+  color: #555555;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.cardColor .card4 {
+  background-color: #fff;
+  width: 79%;
+  box-shadow: 13px 6px 23px -2px rgba(0, 0, 0, 0.48);
+  margin-top: 32px;
+}
+.cardColor .card4 .color {
+  width: 100%;
+  height: 222px;
+  background-color: #63FF73;
+}
+.cardColor .card4 h3 {
+  padding: 12px;
+  font-size: 24px;
+}
+.cardColor .card4 p {
+  padding: 12px;
+  color: #555555;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.cardColor .card5 {
+  background-color: #fff;
+  width: 79%;
+  box-shadow: 13px 6px 23px -2px rgba(0, 0, 0, 0.48);
+  margin-top: 32px;
+}
+.cardColor .card5 .color {
+  width: 100%;
+  height: 222px;
+  background-color: #FFDD63;
+}
+.cardColor .card5 h3 {
+  padding: 12px;
+  font-size: 24px;
+}
+.cardColor .card5 p {
+  padding: 12px;
+  color: #555555;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.cardColor .card6 {
+  background-color: #fff;
+  width: 79%;
+  box-shadow: 13px 6px 23px -2px rgba(0, 0, 0, 0.48);
+  margin-top: 32px;
+}
+.cardColor .card6 .color {
+  width: 100%;
+  height: 222px;
+  background-color: #6663FF;
+}
+.cardColor .card6 h3 {
+  padding: 12px;
+  font-size: 24px;
+}
+.cardColor .card6 p {
+  padding: 12px;
+  color: #555555;
+  font-weight: 400;
+  line-height: 1.4;
 }/*# sourceMappingURL=main.css.map */
