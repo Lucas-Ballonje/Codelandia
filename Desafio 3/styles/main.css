@@ -203,11 +203,13 @@
   border: none;
   outline: none;
   margin: 12px 0 12px 0;
+  resize: none;
 }
 .formularioContato form .enviarButton {
   background: #6C63FF;
   color: #fff;
   font-weight: 800;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1366px) {
@@ -215,8 +217,8 @@
     flex-direction: row;
     padding: 16px 64px 16px 64px;
     gap: 15%;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
   }
   .banner .descricao h1 {
     width: 50%;
@@ -244,6 +246,9 @@
     margin-top: 32px;
   }
 
+  .formularioContato {
+    margin-top: 0;
+  }
   .formularioContato form {
     align-items: center;
   }
@@ -252,5 +257,49 @@
   }
   .formularioContato form .messageInput {
     width: 40%;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .banner {
+    padding: 16px 80px 16px 80px;
+  }
+  .banner .descricao h1 {
+    width: 55%;
+    font-size: 42px;
+  }
+  .banner .descricao p {
+    margin-bottom: 24px;
+  }
+
+  .cardColor {
+    justify-items: center;
+  }
+  .cardColor .card1 {
+    width: 50%;
+  }
+  .cardColor .card2 {
+    width: 50%;
+  }
+  .cardColor .card3 {
+    width: 50%;
+  }
+  .cardColor .card4 {
+    width: 50%;
+  }
+  .cardColor .card5 {
+    width: 50%;
+  }
+  .cardColor .card6 {
+    width: 50%;
+  }
+
+  .formularioContato {
+    margin-top: 0;
+  }
+  .formularioContato form input {
+    width: 25%;
+  }
+  .formularioContato form .messageInput {
+    width: 25%;
   }
 }/*# sourceMappingURL=main.css.map */
