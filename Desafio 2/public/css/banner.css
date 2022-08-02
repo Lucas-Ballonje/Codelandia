@@ -1,0 +1,20 @@
+.banner .imgBanner {
+  width: 100%;
+  filter: brightness(50%);
+}
+.banner .descricaoBanner {
+  width: 32%;
+  position: absolute;
+  top: 33%;
+  left: 10%;
+  color: #fff;
+  line-height: 2;
+}
+.banner .descricaoBanner h3 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+.banner .descricaoBanner span {
+  font-weight: 800;
+}/*# sourceMappingURL=banner.css.map */

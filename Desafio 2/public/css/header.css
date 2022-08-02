@@ -1,0 +1,20 @@
+.headerDesconto {
+  display: flex;
+  justify-content: center;
+  background-color: #181818;
+  color: #fff;
+  padding: 16px;
+}
+.headerDesconto span {
+  font-size: 16px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+.titulo h3 {
+  font-size: 24px;
+  margin: 12px 0;
+  font-weight: 800;
+}/*# sourceMappingURL=header.css.map */
