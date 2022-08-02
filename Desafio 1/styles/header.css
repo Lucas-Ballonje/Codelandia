@@ -29,6 +29,7 @@ header h3{
     padding: 16px;
     color: #fff;
     outline: none;
+    opacity: 0.5;
 }
 .search::placeholder{
     color: #fff;

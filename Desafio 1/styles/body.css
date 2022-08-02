@@ -1,0 +1,27 @@
+.haederBloco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloBloco{
+    color: #000;
+}
+
+
+.heart{
+    width: 32px;
+    cursor: pointer;
+}
+
+.heartBlack{
+    display: none;
+}
+
+.alert{
+    background-color: #fff;
+    margin-top: 12px;
+}
+
+.alert p{
+    color: #000;
+}
