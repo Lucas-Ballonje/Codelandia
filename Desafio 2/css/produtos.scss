@@ -1,0 +1,15 @@
+.produtos{
+    .tituloSecaoProduto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 12px 0;
+        line-height: 1.4;
+
+        h4{
+            margin-bottom: 8px;
+            font-weight: 800;
+            font-size: 28px;
+        }
+    }
+}
