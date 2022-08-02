@@ -1,0 +1,35 @@
+header{
+    background: rgb(87,74,232);
+    background: linear-gradient(90deg, rgba(87,74,232,1) 12%, rgba(62,161,219,1) 100%);
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.logoTitulo{
+    display: flex;
+    justify-content: space-around;
+}
+
+header h3{
+    color: #fff;
+    font-size: 24px;
+}
+/*rgba(62,161,219,1)8
+#FFFFFF33
+*/
+.search{
+    background: rgb(87,74,232);
+    background: linear-gradient(90deg, rgba(87,74,232,1) 12%, rgba(85,79,231,1) 54%, rgba(62,161,219,1) 100%);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba(255, 255, 255, 0.753);
+    margin-top: 24px;
+    width: 55%;
+    border-radius: 6px;
+    padding: 16px;
+    color: #fff;
+    outline: none;
+}
+.search::placeholder{
+    color: #fff;
+}
