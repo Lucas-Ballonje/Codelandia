@@ -1,15 +1,31 @@
 .produtos{
+    background-color: #ccc;
     .tituloSecaoProduto{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 12px 0;
+        padding: 12px;
         line-height: 1.4;
-
+        
         h4{
             margin-bottom: 8px;
             font-weight: 800;
             font-size: 28px;
+        }
+    }
+    .produtosContainer{
+        .produtosTenis{
+            gap: 12%;
+
+            .card{
+                margin: 12px 0;
+                box-shadow: 0 4px 8px 0 rgba(220,220,220, 5);
+                transition: 0.3s;
+                &:hover{
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 10);
+                    
+                }
+            }
         }
     }
 }

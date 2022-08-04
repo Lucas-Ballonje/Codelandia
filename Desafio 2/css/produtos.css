@@ -1,12 +1,26 @@
+.produtos {
+  background-color: #ccc;
+}
 .produtos .tituloSecaoProduto {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 12px 0;
+  padding: 12px;
   line-height: 1.4;
 }
 .produtos .tituloSecaoProduto h4 {
   margin-bottom: 8px;
   font-weight: 800;
   font-size: 28px;
+}
+.produtos .produtosContainer .produtosTenis {
+  gap: 12%;
+}
+.produtos .produtosContainer .produtosTenis .card {
+  margin: 12px 0;
+  box-shadow: 0 4px 8px 0 rgb(220, 220, 220);
+  transition: 0.3s;
+}
+.produtos .produtosContainer .produtosTenis .card:hover {
+  box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
 }/*# sourceMappingURL=produtos.css.map */
