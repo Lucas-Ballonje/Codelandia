@@ -3,6 +3,11 @@
         width: 100%;
         filter: brightness(50%);
     }
+    .imgBannerMobile{
+        display: none;
+        filter: brightness(40%);
+
+    }
 
     .descricaoBanner{
         width: 32%;
@@ -18,6 +23,41 @@
         }
         span{
             font-weight: 800;
+        }
+    }
+
+    @media screen and (max-width: 700px){
+        .imgBanner{
+            display: none;
+        }
+
+        .imgBannerMobile{
+            display: block;
+            width: 100%;
+        }
+
+        .descricaoBanner{
+            width: 85%;
+
+            h3{
+                font-size: 23px;
+            }
+            span{
+                font-weight: 200;
+                font-size: 14px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1600px){
+        .descricaoBanner{
+            h3{
+                font-size: 32px;
+            }
+
+            span{
+                font-size: 21px;
+            }
         }
     }
 }

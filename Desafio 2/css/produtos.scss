@@ -19,12 +19,20 @@
 
             .card{
                 margin: 12px 0;
-                box-shadow: 0 4px 8px 0 rgba(220,220,220, 5);
+                box-shadow: 0 4px 8px 0 #bf7171e0;
                 transition: 0.3s;
                 &:hover{
                     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 10);
                     
                 }
+            }
+        }
+    }
+
+    @media screen and (max-width: 700px){
+        .produtosContainer{
+            .produtosTenis{
+                    justify-content: center;
             }
         }
     }
