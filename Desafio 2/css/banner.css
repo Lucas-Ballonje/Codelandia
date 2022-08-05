@@ -31,7 +31,7 @@
     width: 100%;
   }
   .banner .descricaoBanner {
-    width: 80%;
+    width: 85%;
   }
   .banner .descricaoBanner h3 {
     font-size: 23px;
@@ -39,5 +39,13 @@
   .banner .descricaoBanner span {
     font-weight: 200;
     font-size: 14px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .banner .descricaoBanner h3 {
+    font-size: 32px;
+  }
+  .banner .descricaoBanner span {
+    font-size: 21px;
   }
 }/*# sourceMappingURL=banner.css.map */
