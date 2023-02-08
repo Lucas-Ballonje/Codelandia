@@ -1,0 +1,17 @@
+*{
+    background-color: #09090B;
+}
+
+.logo{
+    margin: 12px 0 12px 0;
+}
+
+.menu{
+    display: none;
+}
+
+/*banner*/
+.descricao h1{
+    color: #fff;
+    font-family: "Inter";
+}
