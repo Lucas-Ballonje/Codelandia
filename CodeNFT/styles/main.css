@@ -1,9 +1,11 @@
 *{
     background-color: #09090B;
+    font-family: "Inter";
 }
 
 .logo{
-    margin: 12px 0 12px 0;
+    margin: 12px;
+    height: 36px;
 }
 
 .menu{
@@ -11,7 +13,63 @@
 }
 
 /*banner*/
-.descricao h1{
+.banner{
+    max-width: 1146px;
+}
+
+.descricaoBanner{
+    margin: 0 24px 0 24px;
+}
+.descricaoBanner h1{
     color: #fff;
-    font-family: "Inter";
+    font-size: 32px;
+    margin: 0 0 32px 0;
+}
+.descricaoBanner h1 span{
+    background: rgb(255,141,141);
+    background: linear-gradient(90deg, rgba(255,141,141,1) 23%, rgba(247,252,14,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}
+
+.descricao{
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    width: 90%;
+    font-weight: 300;
+}
+
+.btnExplorar{
+    background: linear-gradient(90deg, rgba(255,141,141,1) 0%, rgba(247,252,14,1) 100%);
+    border: none;
+    color: #000;
+    width: 312px;
+    height: 51px;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-top: 32px;
+    text-transform: uppercase;
+}
+
+/*Colecao*/
+.colecao{
+    width: 312px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/bgColecao.png");
+}
+
+.colecao span{
+    color: #fff;
+    font-family: "jura";
+}
+
+.colecao p{
+    color: #fff;
+    font-family: "Jura";
 }
