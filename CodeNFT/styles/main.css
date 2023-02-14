@@ -18,7 +18,9 @@
 }
 
 .descricaoBanner{
-    margin: 0 24px 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .descricaoBanner h1{
     color: #fff;
@@ -37,7 +39,7 @@
     color: #fff;
     font-size: 16px;
     line-height: 25px;
-    width: 90%;
+    width: 72%;
     font-weight: 300;
 }
 
@@ -55,21 +57,69 @@
 }
 
 /*Colecao*/
+.containerColecao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .colecao{
     width: 312px;
     height: 120px;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    gap: 8px;
     justify-content: center;
+    margin-top: 56px;
     background-image: url("../images/bgColecao.png");
 }
 
 .colecao span{
     color: #fff;
     font-family: "jura";
+    background: transparent;
+    font-size: 40px;
 }
 
 .colecao p{
     color: #fff;
     font-family: "Jura";
+    background: transparent;
+    font-size: 16px;
 }
+.colecao::before{
+    content: "";
+    height: 2px;
+    width: 243px;
+    background-color: rgba(217, 217, 217, 0.2);
+    position: absolute;
+    top: 65%;
+    left: 75px;
+}
+.colecao::after{
+    content: "";
+    height: 2px;
+    width: 67px;
+    background-color: #F7FC0E;
+    position: absolute;
+    top: 65%;
+    left: 75px;
+}
+
+/**NFTS*/
+.nfts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    margin-top: 82px;
+}
+
+.nfts h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/*Colecionadores*/
