@@ -123,3 +123,44 @@
 }
 
 /*Colecionadores*/
+.colecionadores{
+    max-width: 1146px;
+}
+.colecionadores h3{
+    color: #fff;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 16px 0px 0 24px;
+}
+
+.titulosBarra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 16px 48px 0 24px;   
+}
+
+.titulosBarra h4{
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.titulosBarra::before{
+    content: "";
+    height: 2px;
+    width: 312px;
+    background-color: rgba(217, 217, 217, 0.2);
+    position: absolute;
+    top: 100rem;
+    left: 27px;
+}
+.titulosBarra::after{
+    content: "";
+    height: 2px;
+    width: 181px;
+    background-color: #F7FC0E;
+    position: absolute;
+    top: 100rem;
+    left: 27px;
+}
