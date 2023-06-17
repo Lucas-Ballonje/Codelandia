@@ -1,15 +1,18 @@
 .haederBloco{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .tituloBloco{
     color: #000;
+
 }
 
 
 .heart{
-    width: 32px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
 }
 
@@ -20,6 +23,7 @@
 .alert{
     background-color: #fff;
     margin-top: 12px;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
 }
 
 .alert p{
