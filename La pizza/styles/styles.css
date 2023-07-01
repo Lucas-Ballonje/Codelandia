@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Sora', sans-serif;
+    box-sizing: border-box;
 }
 
 #banner img{
-    width: 100vw;
+    width: 100%;
+    margin-bottom: 100px;
 }
 
 #banner .tituloBanner{
@@ -31,4 +33,56 @@
     color: #5C913B;
 }
 
+.maisVendidas{
+    max-width: 1460px;
+    margin: 0 auto;    
+}
 
+.pizzas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 256px;
+    height: 275px;
+    background-color: #fef6f4;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.imagemFeedback {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;    
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemFeedback img{
+    width: 120px;
+    height: 120px;
+}
+
+.descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.pizza button{
+    width: 157px;
+    height: 31px;    
+    padding: 8px 32px 8px 32px;
+    border-radius: 25px;
+    background: #FFA200;
+    border: none;
+    margin-left: 35px;
+}
